@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:stretchColumns="1">
+
+    <TableRow android:background="#128675">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Producto"
+            android:textColor="@color/white"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="Subtotal"
+            android:textColor="@color/white"/>
+    </TableRow>
+
+    <TableRow android:background="#D3D3D3">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Jabón de manos x1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="2€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Shampoo Alpecin x1"
+            android:textColor="#03A9F4"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="10€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="#D3D3D3">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Pastas Layana x2"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="18€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="0"
+            android:padding="3dip"
+            android:text="Detergente Tucolor x1"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="13,4€"
+            android:textColor="#FF0000"/>
+    </TableRow>
+
+    <View
+        android:layout_height="2dip"
+        android:background="#FF909090"/>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Subtotal"
+            android:textColor="#347837"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="13,4€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Costo envío"
+            android:textColor="#347837"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="10€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Cupón"
+            android:textColor="#347837"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="-5€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+    <TableRow android:background="@color/white">
+        <TextView
+            android:layout_column="1"
+            android:padding="3dip"
+            android:text="Total"
+            android:textColor="#347837"/>
+
+        <TextView
+            android:layout_column="2"
+            android:padding="3dip"
+            android:text="48,4€"
+            android:textColor="@color/black"/>
+    </TableRow>
+
+</TableLayout>
